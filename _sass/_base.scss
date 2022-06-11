@@ -108,10 +108,12 @@ blockquote {
 }
 
 .about-header {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
 }
 .about-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: 400;
 }
 
 @media (min-width: 576px) {
