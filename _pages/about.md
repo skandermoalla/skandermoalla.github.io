@@ -7,7 +7,7 @@ subtitle: >
   Careers Lead <a href='https://oxai.org/'>@OxAI</a>.
 profile:
   align: right
-  image: Oxford2.jpg
+  image: Oxford3.jpg
   address: >
     <p>Room 203</p>
     <p>Robert Hooke Building</p>
