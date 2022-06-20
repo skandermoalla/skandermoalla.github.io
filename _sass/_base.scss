@@ -84,6 +84,37 @@ blockquote {
   }
 }
 
+// CV-Card
+
+.cv-items-section {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
+  gap: 12px;
+}
+.cv-card {
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.05);
+  flex: 1;
+  p {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    .cv-element-name {
+      margin-right: 4px
+    }
+    .cv-element-detail {
+      color: var(--global-text-color-light);
+    }
+  }
+}
+
 // Citation
 
 .citation, .citation-number {

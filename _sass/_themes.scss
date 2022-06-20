@@ -30,7 +30,7 @@ html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
+  --global-text-color-light: #{$grey-color-light-darker};
   --global-theme-color: #{$brand-color};
   --global-hover-color: #{$brand-color};
   --global-footer-bg-color: #{$grey-color-light};

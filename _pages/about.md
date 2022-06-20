@@ -3,8 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  MSc in CS <a href='https://www.ox.ac.uk/'>@Oxford</a><a href='https://whirl.cs.ox.ac.uk/'>(@WhiRL)</a>, 
-  Careers Lead <a href='https://oxai.org/'>@OxAI</a>.
+  MSc in CS @ Oxford (WhiRL)
 profile:
   align: right
   image: Oxford3.jpg
@@ -12,7 +11,34 @@ profile:
     <p>Room 203</p>
     <p>Robert Hooke Building</p>
     <p>University of Oxford.</p>
-    
+cv-items:
+- title: Interests
+  id: cv-interests
+  items:
+  - name: Reinforcement Learning
+    detail: Deep RL, Multi-Agent RL
+  - name: Machine Learning
+    detail:
+- title: Education
+  id: cv-education
+  items:
+  - name: Computer Science
+    detail: Oxford (MSc)
+  - name: Maths & Computer Science
+    detail: Ecole Polytechnique (BSc)
+  - name: Software Eng
+    detail: U of Toronto
+  - name: AI & Entrepreneurship
+    detail: Stanford
+- title: Experience
+  id: cv-experiences
+  items:
+  - name: RL Applied Scientist
+    detail: Quincus
+  - name: SDE/SWE & ML
+    detail: Amazon
+  - name: Neuroscience
+    detail: Blue Brain Project (EPFL)
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
