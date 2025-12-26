@@ -8,10 +8,10 @@ middle_name:
 last_name: Moalla
 email: skan.moalla@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Skander Moalla's personal website.
+  Skander Moalla's personal website. PhD candidate in RL and LLM post-training at EPFL.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website, machine learning, artificial intelligence  # add your own keywords or leave empty
+keywords: reinforcement learning, deep learning, machine learning, artificial intelligence, LLM post-training, AI alignment  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 👾  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -57,14 +57,14 @@ github_username: skandermoalla # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: skander-moalla # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: YEP65IMAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: https://reuben.ox.ac.uk/people/skander-moalla # work page URL
+work_url: https://people.epfl.ch/skander.moalla # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
@@ -74,7 +74,7 @@ contact_note:
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
+bing_site_verification:  # your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 # -----------------------------------------------------------------------------
@@ -95,7 +95,7 @@ disqus_shortname:  # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
-# If you have blog posts published on medium.com or other exteranl sources,
+# If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 #external_sources:
 #  - name: medium.com
