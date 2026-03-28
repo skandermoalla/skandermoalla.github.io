@@ -30,6 +30,8 @@ cv-items:
 - title: Experience
   id: cv-experiences
   items:
+  - name: Research Scientist Intern
+    detail: Meta FAIR
   - name: PhD Student Researcher
     detail: Google DeepMind
   - name: RL Applied Scientist
@@ -49,26 +51,26 @@ _I bring a strong background in both research and engineering._
 
 Hi! I'm a final-year PhD candidate in reinforcement learning (RL) and LLM post-training at [EPFL](https://www.epfl.ch/en/), advised by [Prof. Caglar Gulcehre](https://scholar.google.com/citations?user=7hwJ2ckAAAAJ&hl=en) ([CLAIRE Lab](https://www.epfl.ch/labs/claire/)).
 
-I work on scaling reinforcement learning for LLMs by developing algorithms that leverage off-policy data to improve training efficiency and diversity, while preventing saturation in terms of plasticity and exploration. 
+I work on scaling reinforcement learning for LLMs by developing algorithms that leverage off-policy data to improve training efficiency and diversity, while preventing saturation in terms of plasticity and exploration.
 
 My recent work includes co-leading the post-training of a fully open source 70B LLM ([Apertus 70B, Project Apertus](https://arxiv.org/abs/2509.14233)), leveraging diversity to improve test-time scaling and sampling in reinforcement learning ([SR with the Gemma post-training team at Google DeepMind](https://deepmind.google/models/gemma/)), deriving a calibrated offline & off-policy RL fine-tuning algorithm for LLMs ([Quantile Reward Policy Optimization, NeurIPS 2025](https://arxiv.org/abs/2507.08068)), and exposing the connection between plasticity, trust-region, and off-policy collapse ([No Representation, No Trust, NeurIPS 2024](https://proceedings.neurips.cc/paper_files/paper/2024/hash/81166fbd9cc5adf14031cdb69d3fd6a8-Abstract-Conference.html)).
 
 I have developed several codebases from scratch with significant open-source contributions and infrastructure work such as [a scalable code execution sandbox for QRPO](https://github.com/CLAIRE-Labo/quantile-reward-policy-optimization) and [a scalable offline post-training pipeline for Apertus 70B](https://github.com/swiss-ai/posttraining).
 I am also proud of building infrastructure for reproducible ML ([Python Machine Learning Research Template](https://github.com/pytorch/mlresearch-template)) and conducting award-winning reproducibility studies ([ReScience 2023](https://openreview.net/forum?id=E0qO5dI5aEn)).
 
-
 <!-- cv-items -->
 
 ## Background
+
+I am currently a research scientist intern at [Meta Fundamental AI Research (FAIR)](https://ai.meta.com/research/) in Paris, working with [Julia Kempe](https://cims.nyu.edu/~kempe/) and [Rémi Munos](https://scholar.google.com/citations?user=OvKEnVwAAAAJ) in the foundations of reasoning team (FoRT).
+
+I was a PhD student researcher at [Google DeepMind](https://deepmind.google/) (Paris) with the [Gemma](https://deepmind.google/models/gemma/) post-training team hosted by [Alexandre Ramé](https://alexrame.github.io/), working on leveraging diversity to improve test-time scaling and sampling in reinforcement learning.
+I also interned as an applied scientist at [Quincus](https://www.quincus.com/) to optimise middle-mile logistics using RL, and as a software engineer at [Amazon](https://amazon.jobs/en/business_categories/student-programs) building AI tools for Amazon Transportation Services.
 
 I hold an [MSc in Advanced Computer Science](https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science) from the [University of Oxford](https://www.ox.ac.uk/) (Reuben College inaugural cohort 2021-2022).
 My MSc thesis on Multi-Agent RL and policy gradient methods was supervised by [Mingfei Sun](https://mingfeisun.github.io/) and [Prof. Shimon Whiteson](http://whirl.cs.ox.ac.uk/pages/people/shimon.html) at the [Whiteson Research Lab (WhiRL)](https://whirl.cs.ox.ac.uk/).
 
 I validated a [BSc in Mathematics and Computer Science](https://programmes.polytechnique.edu/en/bachelor/bachelor-of-science) from [Ecole Polytechnique](https://programmes.polytechnique.edu/en) (inaugural cohort 2017-2020) and was a visiting student at [EPFL](https://www.epfl.ch/en/), the [University of Toronto](https://www.utoronto.ca/), and [Stanford University](https://www.stanford.edu/), where I focused on software engineering and entrepreneurship.
-
-
-I was a PhD student researcher at [Google DeepMind](https://deepmind.google/) (Paris) with the [Gemma](https://deepmind.google/models/gemma/) post-training team hosted by [Alexandre Ramé](https://alexrame.github.io/), working on leveraging diversity to improve test-time scaling and sampling in reinforcement learning.
-I also interned as an applied scientist at [Quincus](https://www.quincus.com/) to optimise middle-mile logistics using RL, and as a software engineer at [Amazon](https://amazon.jobs/en/business_categories/student-programs) building AI tools for Amazon Transportation Services.
 
 At EPFL, I was the president of CUBAliente (2024), the latin social dancing association.
 At Oxford, I led the Careers team of the [Oxford Artificial Intelligence society (OxAI)](https://oxai.org/) (2022) and played as a libero for the [men's Blues volleyball team](https://www.sport.ox.ac.uk/volleyball) (2021-2022).
