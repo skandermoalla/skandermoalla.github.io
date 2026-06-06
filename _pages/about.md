@@ -31,9 +31,9 @@ cv-items:
   id: cv-experiences
   items:
   - name: Research Scientist Intern
-    detail: Meta FAIR
+    detail: Meta FAIR (J. Kempe, R. Munos)
   - name: PhD Student Researcher
-    detail: Google DeepMind
+    detail: Google DeepMind (A. Ramé)
   - name: RL Applied Scientist
     detail: Quincus
   - name: SDE/SWE & ML
@@ -46,10 +46,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-_I am considering full-time positions in Zurich, Paris, or London for Fall 2026._
+_I am considering full-time positions in Zurich or Paris for winter 2026/2027._
 _I bring a strong background in both research and engineering._
 
 Hi! I'm a final-year PhD candidate in reinforcement learning (RL) and LLM post-training at [EPFL](https://www.epfl.ch/en/), advised by [Prof. Caglar Gulcehre](https://scholar.google.com/citations?user=7hwJ2ckAAAAJ&hl=en) ([CLAIRE Lab](https://www.epfl.ch/labs/claire/)).
+I am currently interning at [Meta FAIR](https://ai.meta.com/research/) in Paris, working with [Prof. Julia Kempe](https://cims.nyu.edu/~kempe/) and [Prof. Rémi Munos](https://scholar.google.com/citations?user=OvKEnVwAAAAJ) on in-context adaptation and asymmetric self-play applied to formal mathematics ([Lean](https://lean-lang.org/)).
 
 I work on scaling reinforcement learning for LLMs by developing algorithms that leverage off-policy data to improve training efficiency and diversity, while preventing saturation in terms of plasticity and exploration.
 
@@ -61,8 +62,6 @@ I am also proud of building infrastructure for reproducible ML ([Python Machine 
 <!-- cv-items -->
 
 ## Background
-
-I am currently a research scientist intern at [Meta Fundamental AI Research (FAIR)](https://ai.meta.com/research/) in Paris, working with [Julia Kempe](https://cims.nyu.edu/~kempe/) and [Rémi Munos](https://scholar.google.com/citations?user=OvKEnVwAAAAJ) in the foundations of reasoning team (FoRT).
 
 I was a PhD student researcher at [Google DeepMind](https://deepmind.google/) (Paris) with the [Gemma](https://deepmind.google/models/gemma/) post-training team hosted by [Alexandre Ramé](https://alexrame.github.io/), working on leveraging diversity to improve test-time scaling and sampling in reinforcement learning.
 I also interned as an applied scientist at [Quincus](https://www.quincus.com/) to optimise middle-mile logistics using RL, and as a software engineer at [Amazon](https://amazon.jobs/en/business_categories/student-programs) building AI tools for Amazon Transportation Services.
