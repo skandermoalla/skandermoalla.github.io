@@ -1,0 +1,15 @@
+# LaTeX build artifacts. Only cv.tex and publications.bib are tracked here.
+# On each successful build, .latexmkrc copies cv.pdf to
+# assets/pdf/cv-skander-moalla-2026.pdf, which is the committed/published copy.
+cv.pdf
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
