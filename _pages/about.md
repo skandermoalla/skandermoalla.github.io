@@ -46,7 +46,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-_I am considering full-time positions in for winter 2026/2027._
+_I am considering full-time positions in for winter 2026/2027._  
 _I bring a strong background in both research and engineering._
 
 Hi! I'm a final-year PhD candidate in reinforcement learning (RL) and LLM post-training at [EPFL](https://www.epfl.ch/en/), advised by [Prof. Caglar Gulcehre](https://scholar.google.com/citations?user=7hwJ2ckAAAAJ&hl=en) ([CLAIRE Lab](https://www.epfl.ch/labs/claire/)).<br>
