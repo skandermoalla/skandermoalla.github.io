@@ -4,6 +4,17 @@
 
 // Typography
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 350;
+  line-height: 1.6;
+}
+
+p, li {
+  font-family: inherit;
+  font-weight: 350;
+}
+
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
 }
@@ -124,8 +135,13 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 0.35rem;
   width: 100%;
+
+  figure {
+    margin-bottom: 0;
+  }
 
   .address {
     margin-bottom: 5px;
@@ -520,6 +536,7 @@ footer.sticky-bottom {
           padding-right: 1rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
+          text-transform: none;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);

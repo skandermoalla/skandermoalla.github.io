@@ -4,6 +4,7 @@ layout: default
 
 <!-- about.html -->
       <div class="post">
+
         <header class="post-header">
           <h1 class="post-title">
            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
@@ -12,6 +13,16 @@ layout: default
         </header>
 
         <article>
+          {% if content contains "<!-- profile -->" %}
+            {% assign profile_split = content | split: "<!-- profile -->" %}
+            <div class="intro-text">
+              {{ profile_split[0] }}
+            </div>
+            {% assign main_content = profile_split[1] %}
+          {% else %}
+            {% assign main_content = content %}
+          {% endif %}
+
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
@@ -30,7 +41,7 @@ layout: default
           {%- endif %}
 
           <div class="clearfix">
-            {% assign content_parts = content | split: "<!-- cv-items -->" %}
+            {% assign content_parts = main_content | split: "<!-- cv-items -->" %}
             {{ content_parts[0] }}
             
             {% if content_parts.size > 1 %}
